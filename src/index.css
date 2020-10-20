@@ -10,14 +10,15 @@
   --grayLight: #F5F5F5;
   --grayMedium: #e5e5e5; 
   --white: #FFFFFF;
-  --frontEnd: #6BD1FF;
-  --backEnd: #00C86F;
+  --textPass: #1D7100;
+  --backEnd: #C1FFD3;
 }
 
 html,
 body {
   margin: 0;
   padding: 0;
+  background-color: var(--backEnd);
 }
 
 a {
