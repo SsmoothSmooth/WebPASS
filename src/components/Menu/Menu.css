@@ -1,12 +1,12 @@
 /* Realizar as configurações do css*/
 .Menu {
-    background-image: url("../../assets/img/page.jpg");
+    background-image: url("../../assets/img/page.jpg");  
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     position: fixed;
     width: 100%;
-    height: 100%;
+    height: 40%;
     top: 0;
     z-index: 1;
   }
