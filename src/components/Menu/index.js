@@ -21,17 +21,14 @@ function Menu() {
                     Comprar passagens
                 </Button></li>
 
-                <li><Button as={Link} className='Cadastro' to="/Cadastro/Usuario">
+                <Button as={Link} className='Cadastro' to="/Cadastro/Usuario">
                     Cadastre-se
-                </Button></li>
+                </Button>
 
                 <li><Button as={Link} className='ButtonLogin' to="https://www.google.com">
                     Login
                 </Button></li>
 
-                <Button as={Link} className="ButtonLink" to="/cadastro/video">
-        Novo vídeo
-      </Button>
             </ul>
             
         </nav>

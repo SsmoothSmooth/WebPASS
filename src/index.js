@@ -19,6 +19,7 @@ const Pagina404 = () => (<div>Página 404</div>)
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
+      {/* Rota que o compenete era fazer  */}
       <Route path="/" component={Home} exact/>
       <Route path="/Cadastro/Usuario" component={CadastroUsuario} />
       <Route path="/Cadastro/Empresa" component={CadastroEmpresa} />
