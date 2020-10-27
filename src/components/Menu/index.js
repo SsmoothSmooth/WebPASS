@@ -26,7 +26,7 @@ function Menu() {
                 </Button>
 
                 <li><Button as={Link} className='ButtonLogin' to="https://www.google.com">
-                    Login
+                    Fazer agora login
                 </Button></li>
 
             </ul>
