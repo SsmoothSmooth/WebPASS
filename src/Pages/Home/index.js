@@ -1,6 +1,7 @@
 import React from 'react';
-import Menu from '../../components/Menu'
+import Menu from '../../components/Menu';
 import Content from '../../components/Content';
+import Banner from '../../Banner';
 
 function Home() {
   return (
@@ -8,6 +9,8 @@ function Home() {
       <Menu />
 
       <Content />
+
+      <Banner />
     </div>
 
 
