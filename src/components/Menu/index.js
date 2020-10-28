@@ -5,34 +5,38 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import './Menu.css';
-import Button from '../Button'
-
+import Button from '../Button';
+import Logo from '../../assets/icons/avion.svg';
+import PASS from '../../assets/icons/PASS.svg';
+import registrer from '../../assets/icons/registrer.svg';
+import Login from '../../assets/icons/login.svg';
 
 function Menu() {
     return (
         <nav className="Menu">
             
             <ul class="container">
-                <li><Button as={Link} className='ButtonLogo' to="https://www.google.com">
+                <li><img className="Logo" src={Logo} alt="PASS logo" /><Button as={Link} className='ButtonLogo' to="https://www.google.com">
                     Quem Somos
                 </Button></li>
 
-                <li><Button as={Link} className='ButtonPassagem' to="https://www.google.com">
+                <li><img className="PASS" src={PASS} alt="passagem logo" /><Button as={Link} className='ButtonPassagem' to="https://www.google.com">
                     Comprar passagens
                 </Button></li>
 
-                <Button as={Link} className='Cadastro' to="/Cadastro/Usuario">
+                <li><img className="Cadastro" src={registrer} alt="Cadastro logo" /><Button as={Link} className='Cadastro' to="/Cadastro/Usuario">
                     Cadastre-se
-                </Button>
+                </Button></li>
 
-                <li><Button as={Link} className='ButtonLogin' to="https://www.google.com">
+                <li><img className="Buttonlogin" src={Login} alt="PASS login" /><Button as={Link} className='ButtonLogin' to="https://www.google.com">
                     Fazer agora login
                 </Button></li>
 
             </ul>
             
-        </nav>
+            
+         </nav>
     );
-}
 
-export default Menu; // exporta para poder importar em outro lugar
+}
+export default Menu // exporta para poder importar em outro lugar
