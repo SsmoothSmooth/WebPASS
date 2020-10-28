@@ -1,4 +1,7 @@
 /* Realizar as configurações do css*/
+
+
+
 .Menu {
     background-image: url("../../assets/img/page.jpg");  
     background-size: cover;
@@ -46,3 +49,10 @@
 
   .Menu img {width: 60px;
     height: 60px;}
+
+figure img {
+   background-image: url("../../assets/icons/selo.svg");  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

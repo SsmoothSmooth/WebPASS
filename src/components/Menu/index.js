@@ -33,7 +33,9 @@ function Menu() {
                 </Button></li>
 
             </ul>
-            
+            <figure>
+        <img  src="Caminho da imagem" />
+        </figure>
             
          </nav>
     );
