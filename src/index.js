@@ -5,6 +5,7 @@ import './index.css';
 import Home from './Pages/Home';
 import CadastroUsuario from './Pages/Cadastros/Usuario';
 import CadastroEmpresa from './Pages/Cadastros/Empresa';
+import Search from './Pages/Search';
 
 // Funcinando SPA - 
 //Utilizando a biblioteca react router dom
@@ -23,6 +24,7 @@ ReactDOM.render(
       <Route path="/" component={Home} exact/>
       <Route path="/Cadastro/Usuario" component={CadastroUsuario} />
       <Route path="/Cadastro/Empresa" component={CadastroEmpresa} />
+      <Route path="/Search" component={Search} />
       <Route component={Pagina404} />
       
 

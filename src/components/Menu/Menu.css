@@ -1,4 +1,7 @@
 /* Realizar as configurações do css*/
+
+
+
 .Menu {
     background-image: url("../../assets/img/page.jpg");  
     background-size: cover;
@@ -16,7 +19,8 @@
   }
   
   .Menu li {
-   list-style: none; 
+   list-style: none;
+
   }
   
   .Menu a {
@@ -27,14 +31,27 @@
   
   .Menu a:active .Menu a:hover {
     background-color: teal;
-    color: white;
+    color: purple;
+  
+
   }
 
   a {
-    color: teal;
+    color: white;
+    text-shadow: 4px 4px 10px black;
     text-decoration: none;
   }
   
   a:hover {
     text-decoration: underline;
   }
+
+  .Menu img {width: 60px;
+    height: 60px;}
+
+figure img {
+   background-image: url("../../assets/icons/selo.svg");  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
