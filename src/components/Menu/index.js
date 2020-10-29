@@ -20,7 +20,7 @@ function Menu() {
                     Quem Somos
                 </Button></li>
 
-                <li><img className="PASS" src={PASS} alt="passagem logo" /><Button as={Link} className='ButtonPassagem' to="https://www.google.com">
+                <li><img className="PASS" src={PASS} alt="passagem logo" /><Button as={Link} className='ButtonPassagem' to="/Search">
                     Comprar passagens
                 </Button></li>
 
