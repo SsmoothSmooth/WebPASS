@@ -1,25 +1,25 @@
 import React from 'react'
 
 function SearchBar (){
-    return (
+    return ( 
         <table border="1">
             <tr>
                 <th>Companhias</th>
-                <td>Empresa</td>
-                <td>Empresa</td>
-                <td>Empresa</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
             </tr>
             <tr>
                 <th>1ª Parada</th>
-                <td>Parada</td>
-                <td>Parada</td>
-                <td>Parada</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
             </tr>
             <tr>
                 <th>2ª Parada</th>
-                <td>Parada</td>
-                <td>Parada</td>
-                <td>Parada</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
             </tr>
         </table>
     );
