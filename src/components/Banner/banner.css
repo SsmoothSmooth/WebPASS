@@ -1,0 +1,51 @@
+section .container {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .card   {
+    position: relative;
+    padding: 2%;
+    width: 23%;
+
+}
+
+section .Banner1, .Banner2, .Banner3, .Banner4 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150px;
+}
+
+section .Banner1 {
+    background-image: url("../../assets/img/RioJ.jpg");
+
+}
+
+section .Banner2 {
+    background-image: url("../../assets/img/Disney.jpg");
+}
+
+section .Banner3 {
+    background-image: url("../../assets/img/Tokyo.jpg");
+}
+
+section .Banner4 {
+    background-image: url("../../assets/img/Paris.jpg");
+}
+
+section .ofert {
+    padding-top: 1px;
+    background-color: #FFFFFF;
+    text-align: center;
+    
+}
+
+section  .price {
+    border-top: 2px solid #dddddd;
+    text-align: right;
+}

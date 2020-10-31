@@ -18,7 +18,7 @@ function Menu() {
             <ul className="container">
                 <li>
                     <img className="Logo" src={Logo} alt="PASS logo" />
-                    <Button as={Link} className='ButtonLogo' to="https://www.google.com">
+                    <Button as={Link} className='ButtonLogo' to="#Footer">
                     Quem Somos
                     </Button></li>
 

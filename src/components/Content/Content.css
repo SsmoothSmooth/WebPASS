@@ -5,8 +5,9 @@ section .Logo {
 
 }
 
-section p {
+section.content p {
     font-family: 'IM Fell English SC', serif;
     font-size: 40px;
+    padding-top: 3%;
     text-align: center;
 }

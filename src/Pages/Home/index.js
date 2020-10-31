@@ -1,8 +1,8 @@
 import React from 'react';
 import Menu from '../../components/Menu';
 import Content from '../../components/Content';
-import Banner from '../../Banner';
-
+import Banner from '../../components/Banner';
+import Footer from '../../components/Footer'
 function Home() {
   return (
     <div>
@@ -11,8 +11,10 @@ function Home() {
       <Content />
 
       <Banner />
-    </div>
 
+      <Footer />
+    </div>
+    
 
   );
 }

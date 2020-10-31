@@ -5,7 +5,7 @@ import './Content.css'
 function Content(){
     return(
         
-        <section>          
+        <section className="content">          
             <img className="Logo" src={Logo} alt="PASS logo" />
         
             <p>
