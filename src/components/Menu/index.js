@@ -15,27 +15,32 @@ function Menu() {
     return (
         <nav className="Menu">
             
-            <ul class="container">
-                <li><img className="Logo" src={Logo} alt="PASS logo" /><Button as={Link} className='ButtonLogo' to="https://www.google.com">
+            <ul className="container">
+                <li>
+                    <img className="Logo" src={Logo} alt="PASS logo" />
+                    <Button as={Link} className='ButtonLogo' to="https://www.google.com">
                     Quem Somos
-                </Button></li>
+                    </Button></li>
 
-                <li><img className="PASS" src={PASS} alt="passagem logo" /><Button as={Link} className='ButtonPassagem' to="/Search">
+                <li>
+                    <img className="PASS" src={PASS} alt="passagem logo" />
+                    <Button as={Link} className='ButtonPassagem' to="/Search">
                     Comprar passagens
-                </Button></li>
+                    </Button></li>
 
-                <li><img className="Cadastro" src={registrer} alt="Cadastro logo" /><Button as={Link} className='Cadastro' to="/Cadastro/Usuario">
+                <li>
+                    <img className="Cadastro" src={registrer} alt="Cadastro logo" />
+                    <Button as={Link} className='Cadastro' to="/Cadastro/Usuario">
                     Cadastre-se
-                </Button></li>
+                    </Button></li>
 
-                <li><img className="Buttonlogin" src={Login} alt="PASS login" /><Button as={Link} className='ButtonLogin' to="https://www.google.com">
+                <li>
+                    <img className="Buttonlogin" src={Login} alt="PASS login" />
+                    <Button as={Link} className='ButtonLogin' to="https://www.google.com">
                     Fazer agora login
-                </Button></li>
+                    </Button></li>
 
             </ul>
-            <figure>
-        <img  src="Caminho da imagem" />
-        </figure>
             
          </nav>
     );

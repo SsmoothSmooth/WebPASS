@@ -1,6 +1,12 @@
 section .Logo {
-    margin-top: 26%;
+    margin-top: -80px;    
     position: relative;
     z-index: 1;
 
+}
+
+section p {
+    font-family: 'IM Fell English SC', serif;
+    font-size: 40px;
+    text-align: center;
 }
