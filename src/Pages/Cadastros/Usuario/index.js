@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import PageDefault from '../../../components/PageDefault';
+import Footer from '../../../components/Footer';
 import FormField from '../../../components/Formfield';
 import Button from '../../../components/Button'
 
@@ -30,17 +30,17 @@ function CadastroUsuario() {
   }
 
   return (
-    <PageDefault>
+    <main>
       <h1>Cadastro Usuário: {values.nome}</h1>
 
       <form onSubmit={function handleSubmit(infosDoEvento) {
-          infosDoEvento.preventDefault();
-          setCategorias([
-            ...categorias,
-            values
-          ]);
-
-          setValues(valoresIniciais)
+        infosDoEvento.preventDefault();
+        setCategorias([
+          ...categorias,
+          values
+        ]);
+        
+        setValues(valoresIniciais)
       }}>
 
         <FormField
@@ -49,7 +49,7 @@ function CadastroUsuario() {
           name="nome"
           value={values.nome}
           onChange={handleChange}
-        />
+          />
 
         <FormField
           label="RG/CPF"
@@ -57,7 +57,7 @@ function CadastroUsuario() {
           name="identificacao"
           value={values.identificacao}
           onChange={handleChange}
-        />
+          />
 
         <FormField
           label="Email"
@@ -65,7 +65,7 @@ function CadastroUsuario() {
           name="email"
           value={values.email}
           onChange={handleChange}
-        />
+          />
 
         <FormField
           label="Confirmar Email"
@@ -73,7 +73,7 @@ function CadastroUsuario() {
           name="ConfEmail"
           value={values.ConfEmail}
           onChange={handleChange}
-        />
+          />
 
         <FormField
           label="Senha"
@@ -81,7 +81,7 @@ function CadastroUsuario() {
           name="senha"
           value={values.senha}
           onChange={handleChange}
-        />
+          />
 
         <FormField
           label="Confirmar senha"
@@ -89,7 +89,7 @@ function CadastroUsuario() {
           name="ConfSenha"
           value={values.ConfSenha}
           onChange={handleChange}
-        />       
+          />       
 
         <Button>
           Cadastrar
@@ -99,8 +99,10 @@ function CadastroUsuario() {
       <Link to="/">
         Ir para home
       </Link>
-    </PageDefault>
-  )
+      <Footer />
+      </main>
+
+  );
 }
 
 export default CadastroUsuario;
