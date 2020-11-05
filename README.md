@@ -24,30 +24,30 @@ Será desenvolvido utilizando a biblioteca React JS, que será integrado ao banc
 
 
 * npm start:
-              - Executa o aplicativo no modo de desenvolvimento.
+              * Executa o aplicativo no modo de desenvolvimento.
                 Abra http://localhost:3000/ para visualizá-lo no navegador.
 
                 A página será recarregada se você fizer edições.
-                Você também verá quaisquer erros no console.
+                Você também verá caso paresente os erros no console.
 
 * npm install styled-components:
-              - Uma biblioteca para React e React Native que permite 
+              * Uma biblioteca para React e React Native que permite 
                 que você use estilos ao nível de componente na sua aplicação. 
                 Eles são escritos em uma mistura de JavaScript com CSS
 
 *  npm install react-router-dom
-              - Uma biblioteca completa para controle de rotas que permite que você consiga configurar
+              * Uma biblioteca completa para controle de rotas que permite que você consiga configurar
                 as rotas utilizando o formato JSX e também disponibiliza uma API para você 
                 configurar diretamente via Javascript.
 
 *  npm install react-slick
-              - Uma Lib para Criar um carrossel
+              * Uma Lib para Criar um carrossel
 
 ### Observação:
 * npm install 
-              - Utilzar para abaixar as dependencia do projeto.
+              * Utilzar para abaixar as dependencia do projeto.
 
 
 Assim que deixar o projeto funcionanado instalar o Eslint 
-              - Aula 04 explica como se faz.
-              - também instalar o prop-types.
+              * Aula 04 explica como se faz.
+              * também instalar o prop-types.
