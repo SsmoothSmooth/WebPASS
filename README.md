@@ -47,3 +47,6 @@ Será desenvolvido utilizando a biblioteca React JS, que será integrado ao banc
 * npm install 
    * Utilzar para abaixar as dependencia do projeto.
 
+# IMPORTANTE
+
+* Não estamos conseguindo fazer a comunicação com o banco de dado
