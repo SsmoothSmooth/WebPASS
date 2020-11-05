@@ -6,7 +6,7 @@
 
 * Usando react-router-dom para controlar as rotas;
 
-*Feito o deploy do WEbPASS na Vercel para poder visualizar em qualquer navegador.
+* Feito o deploy do WEbPASS na Vercel para poder visualizar no navegador em qualquer lugar.
 
 ### Quais tecnologias e biblioteca:
 Será desenvolvido utilizando a biblioteca React JS, que será integrado ao banco de dado MySQL rodando em cloud.
