@@ -1,68 +1,52 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Descrição do Trabalho:
+### Uma plataforma online onde pode realizar busca e compra de passagem de avião
+* Criado com components React e também utilizado styled-components;
+* Configurado para funcionar em SPA(single page application) ;
+* Usando react-router-dom para controlar as rotas;
+* Realizado criação da instancia que o sistema vai ficar hospedado divido em duas Zona de Disponibilidade da AWS 
+* Configurado o load balancer e o auto scalling para o sistema. 
+* Feito o deploy do WEbPASS na Vercel para poder visualizar no navegador em qualquer lugar.
 
-## Available Scripts
+### Quais tecnologias e biblioteca:
+Será desenvolvido utilizando a biblioteca React JS, que será integrado ao banco de dado MySQL rodando em cloud.
 
-In the project directory, you can run:
+# Descrições das funcionalidade:
+* Vendas de passagens - Realiza o direcionamento das vendas para sua respectivas agências de voo/ônibus. (Pendente problema na comunicação com o banco de dados)
+* Consulta de passagens - Realiza a consulta da passagem que são registradas em nosso banco de dados. (Pendente problema na comunicação com o banco de dados)
+* Registro de usuário - Realiza o registros das informações de cada cadastro realizado em nosso sistema. (Pendente problema na comunicação com o banco de dados)
+* Registro de passagem - Gravar todos os registros das passagens no banco de dados para consulta-las. (Pendente problema na comunicação com o banco de dados)
+* Histórico de compra e venda -  Será armazenados todo os registros de compras/vendas. (Pendente problema na comunicação com o banco de dados)
 
-### `npm start`
+# Comandos utilizados
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* npx create-react-app webpass:
+  * Criando um novo projeto na qual vai trabalhar
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
+* npm start:
+  * Executa o aplicativo no modo de desenvolvimento.
+    Abra http://localhost:3000/ para visualizá-lo no navegador.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+                A página será recarregada se você fizer edições.
+                Você também verá caso paresente os erros no console.
 
-### `npm run build`
+* npm install styled-components:
+  * Uma biblioteca para React e React Native que permite 
+    que você use estilos ao nível de componente na sua aplicação. 
+    Eles são escritos em uma mistura de JavaScript com CSS
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+*  npm install react-router-dom
+  * Uma biblioteca completa para controle de rotas que permite que você consiga configurar
+    as rotas utilizando o formato JSX e também disponibiliza uma API para você 
+    configurar diretamente via Javascript.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+*  npm install react-slick
+  * Uma Lib para Criar um carrossel
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Observação:
+* npm install 
+   * Utilzar para abaixar as dependencia do projeto.
 
-### `npm run eject`
+# IMPORTANTE
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+* Não estamos conseguindo fazer a comunicação com o banco de dado
