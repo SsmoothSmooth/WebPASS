@@ -46,4 +46,4 @@ function Menu() {
     );
 
 }
-export default Menu // exporta para poder importar em outro lugar
+export default Menu; // exporta para poder importar em outro lugar

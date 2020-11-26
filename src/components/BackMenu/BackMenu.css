@@ -1,0 +1,47 @@
+.BackMenu {
+    background-color: blueviolet;
+    width: 25%;
+    height: 100px;
+    padding: 1%;
+    margin-top: 16px;
+    border-radius: 60px;
+    z-index: 1;
+  }
+  
+  .BackMenu ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .BackMenu li {
+    display: flex;
+   list-style: none;
+
+  }
+  
+  .BackMenu a {
+    display: block;
+    padding: 10px 20px;
+    transition: backgroud-color 1s, color 1s;
+  }
+  
+  .BackMenu a:active .BackMenu a:hover {
+    background-color: teal;
+    color: purple;
+  
+
+  }
+
+  a {
+    color: white;
+    text-shadow: 4px 4px 10px black;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .BackMenu img {
+    width: 45px;
+    height: 50px;}
